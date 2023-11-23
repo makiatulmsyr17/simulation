@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
     }
 })
 const PORT = 3000;
-const IP = '127.0.0.1'; //ip ini localhost 
+const IP = '0.0.0.0'; //ip ini localhost komputer kita 
 server.listen(PORT, IP, () => {
     console.log("server Sudah Jalan")
 })
