@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
     }
 })
 const PORT = 3000;
-const IP = '0.0.0.0'; //ip ini localhost komputer kita 
+const IP = '0.0.0.0'; // ip = 127.0.0.1 ini localhost komputer kita , karena inii mau deploy ke rainway jadi 0.0.0.0
 server.listen(PORT, IP, () => {
     console.log("server Sudah Jalan")
 })
